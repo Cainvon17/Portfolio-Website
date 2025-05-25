@@ -1,0 +1,139 @@
+.topbar{
+    display: flex;
+    background-color: #090607;
+    width: 100vw;
+    height: 50px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.tabs{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.4s ease;
+    font-style: normal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.tabs:hover {
+    color: #ff9500;    
+}
+body{
+    background-color: #090607;
+    color: aliceblue;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.bg {
+    background-image: url('https://i.pinimg.com/originals/1a/69/40/1a694092ffa0bfdb578e716dcf466980.gif');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    font-size: larger;
+}
+
+.heading {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    padding-bottom: 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: start;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(67, 63, 63, 0.3);
+    border-radius: 20px;
+    height: 35%;
+}
+
+.frontend, .backend {
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "Quantico", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
+.git{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 20%;
+    border-radius: 10px;
+    align-items: center;
+    height: 40px;
+    margin: 40px;
+    margin-bottom: 0;    
+    box-shadow: 0 0 20px rgba(1, 255, 234, 0.5)
+}
+.git:hover {
+    transform: scale(1.04);;
+    transition: transform 0.3s ease;
+}
+.git img{
+    height: 30px;
+    border-radius: 25px;
+}
+.git a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: aqua;
+    font-size: larger;
+}
+.frontend{
+    padding-left: 30px;
+    
+}
+.frontend h2,h3,p{
+    padding-bottom: 10px;
+}
+.backend{
+    padding-right: 30px;
+}
+.backend h2,h3,p{
+    padding-bottom: 10px;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+}
+footer p{
+    text-align: center;
+    font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
