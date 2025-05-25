@@ -1,0 +1,94 @@
+body{
+    display: grid;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: black;
+    grid-template-columns: 100vw;
+}
+.topbar{
+    display: flex;
+    background-color: #090607;
+    width: 100vw;
+    height: 50px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+.tabs{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.4s ease;
+    font-style: normal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.icon{
+    border-radius: 20%;
+    height: 28px;
+    width: 28px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.home-img {
+    width: 100vw;
+    overflow: hidden;
+}
+.home-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.tabs:hover {
+    color: #ff9500;    
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #090607;
+    padding: 15px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+.insta{
+    border-radius: 25%;
+}
+.git{
+    border-radius: 15%;
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        height: auto;
+        padding: 10px;
+        position: relative; 
+    }
+    .home {
+        height: auto;
+        min-height: 60vh; 
+    }
+    .home-img img {
+        width: 100%;
+        height: auto; 
+    }
+
+}
+
+
+
