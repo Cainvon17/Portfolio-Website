@@ -1,0 +1,97 @@
+.topbar{
+    display: flex;
+    background-color: #090607;
+    width: 100vw;
+    height: 50px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+.tabs{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.4s ease;
+    font-style: normal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.tabs:hover {
+    color: #ff9500;    
+}
+.bg{
+    background-image: url('./asset/images/Da\ Vinci\'s\ creation\ of\ adam\ ASCII\ Wallpaper.jpeg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+ .container{
+   display: flex;
+   position: fixed;
+   flex-direction: column;
+   justify-content: center;
+   width: 65%;
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 20px;   
+   border-radius: 10px;
+   background-color: rgba(120, 120, 120, 0.7); /*70% opacity*/
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+   color: #F5EEDC;
+   font-family: "Kumbh Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+   font-variation-settings: "YOPQ" 300;
+ }
+ .container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+ }
+ .container h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: lighter;
+ }
+ form input ,textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+ }
+ form{
+    padding-right: 20px;
+ }
+ form input:focus, textarea:focus{
+   outline: 0;
+ }
+ form button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333446;
+    color: #EAEFEF;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-weight: 400;
+ }
