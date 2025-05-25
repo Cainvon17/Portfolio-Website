@@ -1,0 +1,113 @@
+.topbar{
+    display: flex;
+    background-color: #090607;
+    width: 100vw;
+    height: 50px;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.tabs{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: color 0.4s ease;
+    font-style: normal;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.tabs:hover {
+    color: #ff9500;    
+}
+body{
+    background-color: #090607;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    
+}
+.container{
+    /* display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    gap: 7px; */
+    
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 60px);
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 0;
+    box-sizing: border-box;
+
+    
+}
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 0;
+}
+.idpic{
+    height: 92vh;  
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+.idpic:hover {
+    transform: scale(1.02);
+}
+
+.aboutme{
+    /* font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    font-style: normal;  */ 
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 30px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.aboutme span{
+    color: cyan;
+    font-weight: bold;
+}
+#HighLight{
+    color: #22ff00;
+}
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        height: auto;
+    }
+    
+    .idpic {
+        max-height: 430px;
+    }
+    
+    .aboutme {
+        padding: 20px;
+        padding-left: 50px;
+        overflow-y: visible;
+    }
+    
+    .tabs {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+}
