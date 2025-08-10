@@ -11,6 +11,16 @@ This is my first web development project — a fully responsive portfolio websit
 
 The goal was to combine aesthetic appeal with functional simplicity, creating a portfolio that not only represents my skills but also lays the foundation for my journey in web design and development.
 
+## Screenshots
+### Home Page
+![Home](asset\images\homepage.png)
+
+### Contact Page
+![Contact](asset\images\aboutpage.png)
+
+### Contact Page
+![Contact](asset\images\contactpage.png)
+
 ---
 
 1. Clone this repository:
