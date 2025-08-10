@@ -23,9 +23,7 @@ The goal was to combine aesthetic appeal with functional simplicity, creating a 
 ![Contact Page](asset/images/contactpage.png)
 
 ---
+## Live link to the website:
+https://raghav-portfoliowebsite.netlify.app/
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Cainvon17/Portfolio-Website.git
-   
 
